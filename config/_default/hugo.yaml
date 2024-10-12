@@ -1,3 +1,4 @@
+baseURL: https://cobreti.github.io/blog/
 languageCode: en-us
 title: Development Blog
 theme: hugo-stack
