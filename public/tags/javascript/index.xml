@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Javascript on Development Blog</title>
+        <link>/tags/javascript/</link>
+        <description>Recent content in Javascript on Development Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>test</title>
+        <link>/posts/test/</link>
+        <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/posts/test/</guid>
+        <description>&lt;p&gt;Lorem ipsum odor amet, consectetuer adipiscing elit. Lacus neque nam egestas, dignissim aenean nec sagittis aptent faucibus. Maximus nunc sit malesuada dictum eget vehicula. Convallis molestie porta integer varius fermentum nunc aliquam et. Nisl diam ad eu nostra scelerisque ridiculus massa. Faucibus volutpat ut elit aptent at nostra euismod nunc. Ridiculus elementum ex natoque ullamcorper laoreet habitasse at. Luctus posuere montes cursus ultricies curae vivamus. Condimentum nisl feugiat convallis porta eget sagittis. Urna consequat quis, venenatis odio metus vivamus sodales.&lt;/p&gt;
+&lt;p&gt;Mauris arcu feugiat felis fermentum odio turpis. Mauris turpis interdum potenti molestie aliquam mus urna nec netus. Cubilia auctor pellentesque nulla sapien rhoncus eget placerat nulla. Dignissim sollicitudin consectetur mattis justo mollis ridiculus imperdiet diam mauris. Vestibulum nullam volutpat venenatis curabitur ornare fringilla mauris ullamcorper. Justo eget faucibus pellentesque donec auctor congue vivamus. Purus suscipit est at maecenas, non erat commodo. Sociosqu nascetur cubilia suscipit cras ornare pharetra integer taciti?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;hello world&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Adipiscing pretium nostra ex ligula vivamus convallis dolor. Placerat sociosqu consequat elementum; sapien fringilla himenaeos vivamus. Quam iaculis porttitor molestie magnis aenean sodales. Diam imperdiet facilisis quam tempor et proin. Laoreet vehicula natoque vel odio volutpat penatibus egestas! Nec malesuada praesent egestas lacus; lacus potenti porta.&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
