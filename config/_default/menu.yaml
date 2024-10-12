@@ -1,7 +1,7 @@
 main:
   - identifier: home
     name: Home
-    url: /
+    url: /home
     weight: 1
   - identifier: posts
     name: Posts
@@ -11,7 +11,3 @@ main:
     name: Tags
     url: /tags/
     weight: 3
-#  - identifier: categories
-#    name: Categories
-#    url: /categories/
-#    weight: 4
