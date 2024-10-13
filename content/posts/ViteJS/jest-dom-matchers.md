@@ -2,7 +2,7 @@
 title: jest-dom - matchers
 description: library to add extra asserts for DOM states
 publishDate: 2024-10-13
-tags: ['VieJS', 'Unit tests', 'DOM']
+tags: ['ViteJS', 'Unit tests', 'DOM']
 ---
 
 This library allow us to use some extra asserts for various state of the DOM. Unfortunately types are not well discovered and need a little extra setup.
