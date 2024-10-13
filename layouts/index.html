@@ -24,7 +24,21 @@
 {{ end }}
 
 {{ define "main" }}
-    {{ partial "article/article.html" . }}
+    <article class="{{ if .Params.image }}has-image {{ end }}main-article">
+        {{ partial "article/components/content" . }}
+    </article>
+
+
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
+    {{ $filtered := ($pages | intersect $notHidden) }}
+    {{ $pag := .Paginate ($filtered) }}
+
+    <section class="article-list">
+        {{ range $index, $element := $pag.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
 
     {{ if .Params.links }}
         {{ partial "article/components/links" . }}
