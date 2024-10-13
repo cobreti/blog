@@ -1,2 +1,6 @@
 highlight:
   lineNos: true
+
+goldmark:
+  renderer:
+    unsafe: true
