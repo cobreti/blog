@@ -56,5 +56,5 @@
 {{ end }}
 
 {{ define "right-sidebar" }}
-    {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
 {{ end }}
