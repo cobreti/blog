@@ -1,1 +1,7 @@
 mainSections: ['posts']
+
+sidebar:
+  avatar:
+    enabled: true
+    local: true
+    src: profile-picture.png
