@@ -1,4 +1,4 @@
-This is a simple web site where I share about technologies I work with for my many projects.
+This is a simple blog where I share about technologies I work with for my many projects.
 \
 My interests cover a wide range of topics including:
 - Javascript / Typescript
