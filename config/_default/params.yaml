@@ -1,4 +1,5 @@
 mainSections: ['posts']
+limit: 10
 
 sidebar:
   avatar:
@@ -10,3 +11,5 @@ widgets:
   homepage:
     - type: categories
     - type: tag-cloud
+      params:
+        limit: 100
