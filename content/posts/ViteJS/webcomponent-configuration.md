@@ -2,7 +2,7 @@
 title: ViteJS Web Component configuration
 description: Example of ViteJS web-component configuration
 publishDate: 2024-10-19
-tags: ['viejs', 'web-component', 'configuration']
+tags: ['vitejs', 'web-component', 'configuration']
 ---
 
 ### vite.config.ts
