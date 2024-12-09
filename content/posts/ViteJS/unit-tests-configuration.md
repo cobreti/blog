@@ -28,12 +28,27 @@ We need to add the following lines under the scripts section to run tests and co
 Coverage is setup in vite.config.ts file using the following:
 
 ```TypeScript
-export default defineConfig({
-    test: {
-        coverage: {
-            provider: 'istanbul' // could also use v8
+import {fileURLToPath} from 'node:url'
+import {mergeConfig, defineConfig, configDefaults} from 'vitest/config'
+import viteConfig from './vite.config'
+
+export default mergeConfig(
+    viteConfig,
+    defineConfig({
+        test: {
+            environment: 'jsdom',
+            exclude: [...configDefaults.exclude, 'e2e/*'],
+            root: fileURLToPath(new URL('./', import.meta.url)),
+
+            coverage: {
+                    // could also use v8
+                provider: 'istanbul',
+                    // add lcov to be able to use vscode extensions for code coverage
+                reporter: ['html', 'lcov', 'text-summary'],
+            }
         }
-    },
+    })
+)
 ```
 
 ## to watch for ...
